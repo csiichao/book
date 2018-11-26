@@ -18,9 +18,9 @@
             </transactionManager>
             <dataSource type="UNPOOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://192.168.16.137:3306/mybatis"/>
-                <property name="username" value="root"/>
-                <property name="password" value=""/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"/>
+                <property name="username" value="mybatis"/>
+                <property name="password" value="mybatis"/>
             </dataSource>
         </environment>
     </environments>
